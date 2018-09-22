@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "gt-ex",
+    "version": "1.0",
+
+    "page_action": {
+        "default_icon": {
+            "16": "icons/16.png"
+        },
+        "default_title": "gt-ex"
+    },
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "tabs",
+        "https://translate.google.com/*"
+    ]
+}
